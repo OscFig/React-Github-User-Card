@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+* {
+  background-color: grey;
+  /* border: 1px solid white; */
+  font-family: 'Potta One', cursive;
+}
+h1 {
+  margin:5% 1%;
+}
+.gitCard{
+  display:flex;
+  align-content: center;
+  justify-content: space-around;
+}
+.gitText{
+  display:flex;
+  flex-direction:column;
+}
+form {
+  margin:3%;
+}
+form input {
+  margin-right:3%;
+}
+form button {
+  color:black;
+  background-color: white;
+  border:none;
+  border-radius:20px;
+  
+}
+form button:hover {
+  background-color: black;
+  color: white;
+  cursor:pointer;
+}
